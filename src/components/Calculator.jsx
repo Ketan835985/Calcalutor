@@ -29,7 +29,7 @@ export default function Calculator() {
     <h1 className='TitleOfCla'>Calculator</h1>
     <input className= "enterBox23" type="text"  onChange={handelChange} value={result}/>
     <br></br>
-    <input className= "enterBox23" type="text"  onChange={handelChange} readOnly value={answer}/>
+    <div className='Answer'>{answer}</div>
     <br></br>
     <input className={"btn"}  type="button" value="1" onClick={handelOnClick} />
     <input className={"btn"} type="button" value="2" onClick={handelOnClick}/>
