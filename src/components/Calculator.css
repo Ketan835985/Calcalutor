@@ -1,0 +1,62 @@
+.btn {
+    color: aqua;
+    background: linear-gradient(rgb(174, 25, 104), rgb(113, 155, 21), rgb(163, 13, 128));
+    font-size: 30px;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background: linear-gradient(rgb(167, 135, 152), rgb(26, 205, 130), rgb(184, 59, 155));
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 3px 2px 10px 5px rgba(214, 112, 112, 0.75);
+}
+
+.TitleOfCla{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(18, 148, 66);
+    text-shadow: 3px 2px 10px 5px rgba(125, 22, 108, 0.75);
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.enterBox23{
+    display: flex;
+    margin: 10px, 10px;
+    padding: 4px;
+    width: 95%;
+    background-color: aliceblue;
+    color: rgb(13, 181, 13);
+    font-size: 20px;
+    font-weight: 700;
+    border: 3px solid rgb(16, 175, 72);
+    border-radius: 15px;
+    
+}
+
+.buttons-collection{
+    margin: 2px;
+}
+
+.buttons-collection2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.calculator{
+    width: 60%;
+    padding: 25px ;
+    margin: 20px;
+    border-radius: 25px;
+    border: 3px solid rgb(29, 192, 14);
+}
