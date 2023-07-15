@@ -3,7 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background: linear-gradient( rgba(13, 117, 214, 0.4), rgba(212, 16, 173));
+  background: linear-gradient(to right, rgba(141, 8, 8, 0.4), rgb(114, 7, 93), rgb(11, 75, 83));
+  border-radius: 25px;
 }
 
 .logo {

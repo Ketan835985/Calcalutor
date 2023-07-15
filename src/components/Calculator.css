@@ -1,9 +1,11 @@
 .btn {
-    color: aqua;
-    background: linear-gradient(rgb(174, 25, 104), rgb(113, 155, 21), rgb(163, 13, 128));
+    color: rgb(224, 234, 223);
+    background: linear-gradient(to right, rgb(6, 191, 212), rgb(212, 113, 27), rgb(86, 22, 71));
     font-size: 30px;
     border-radius: 8px;
-    transition: 0.5s ease;
+    border: 2px solid rgb(230, 28, 142);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 .btn:hover{
@@ -20,6 +22,7 @@
     font-size: 50px;
     color: rgb(18, 148, 66);
     text-shadow: 3px 2px 10px 5px rgba(125, 22, 108, 0.75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .container{
@@ -57,6 +60,7 @@
 
 .calculator{
     width: 60%;
+    min-width: 200px;
     padding: 25px ;
     margin: 20px;
     border-radius: 25px;
